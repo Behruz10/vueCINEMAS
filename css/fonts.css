@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'rr';
+    src: url(../fonts/roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'rm';
+    src: url(../fonts/roboto/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'mr';
+    src: url(../fonts/monserrat/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'mb';
+    src: url(../fonts/monserrat/Montserrat-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'cr';
+    src: url(../fonts/Comfortaa/Comfortaa-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'cm';
+    src: url(../fonts/Comfortaa/Comfortaa-Medium.ttf) format('truetype');
+}
