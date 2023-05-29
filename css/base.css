@@ -1,27 +1,27 @@
 @import url(./style.css);
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
 }
-:root{
-    --white:#fff;
-    --bg:#040D1F;
-    --cr:'cr', sans-serif;
-    --cm:'cm', sans-serif;
-    --mr:'mr', sans-serif;
-    --mb:'cb', sans-serif;
-    --rm:'rm', sans-serif;
-    --rr:'rr', sans-serif;
-    --or:#F18128;
-    --bl:#040D1F;
-    --bgor:#ED8E00;
-}
 
-.body{
+:root {
+    --white: #fff;
+    --bg: #040D1F;
+    --cr: 'cr', sans-serif;
+    --cm: 'cm', sans-serif;
+    --mr: 'mr', sans-serif;
+    --mb: 'cb', sans-serif;
+    --rm: 'rm', sans-serif;
+    --rr: 'rr', sans-serif;
+    --or: #F18128;
+    --bl: #040D1F;
+    --bgor: #ED8E00;
+}
+body {
     background: var(--bg);
     color: var(--white);
 }
