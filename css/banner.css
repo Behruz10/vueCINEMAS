@@ -18,6 +18,7 @@
     flex-direction: column; 
     justify-content: center;
     align-items: flex-start;
+    height: 100%;
 }
 
 .banner__desc{
@@ -54,10 +55,18 @@ margin-bottom: 60px;
     .banner__dess-h{
         font-size: 37px;
     }
+    
+    .banner{
+        height: 70vh;
+    }
 }
 
 @media screen and (max-width: 420px) {
     .banner__dess-h{
         font-size: 28px;
+    }
+    
+    .banner__btns{
+        flex-wrap: wrap;
     }
 }

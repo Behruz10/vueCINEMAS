@@ -29,7 +29,10 @@ line-height: 18px;
 
 .navbar{
     background: #010305CC;
-    
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 100;
 }
 
 .navbar__wrap{

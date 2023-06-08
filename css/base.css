@@ -21,6 +21,7 @@
     --bl: #040D1F;
     --bgor: #ED8E00;
 }
+
 body {
     background: var(--bg);
     color: var(--white);
@@ -35,7 +36,7 @@ body {
 }
 
 
-.btn{
+.btn {
     border: none;
     outline: none;
     color: var(--bl);
@@ -43,14 +44,27 @@ body {
     width: 166px;
     height: 46px;
     border-radius: 6px;
-font-size: 14px;
-font-weight: 500;
-line-height: 12px;
-transition: 0.3s;
-cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background: var(--bg);
     color: var(--white);
+}
+
+.head__item {
+    font-family: var(--cr);
+    color: var(--bgor);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--bgor);
+    width: max-content;
+    text-transform: capitalize;
+    margin: 60px 0 56px;
 }
