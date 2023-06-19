@@ -59,3 +59,9 @@ color: var(--white);
     font-size: 40px;
     color: var(--white);
 }
+
+@media screen and (max-width:992px) {
+    .collections__wrap{
+        flex-wrap: wrap;
+    }
+}
